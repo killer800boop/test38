@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Runner Game</title>
+    <script src="matter.js"></script>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="Ground.js"></script>
+    <script src="Runner.js"></script>
+    <script src="Form.js"></script>
+    <script src="Game.js"></script>
+    <script src="Obstacle1.js"></script>
+    <script src="Obstacle2.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+
+
+    <script>
+    //Your web app's Firebase configuration
+    var firebaseConfig = {
+    apiKey: "AIzaSyBSK8vockDraazDmj5uiQFAnjPZHXp3aJ4",
+    authDomain: "own-game-c94e2.firebaseapp.com",
+    databaseURL: "https://own-game-c94e2-default-rtdb.firebaseio.com",
+    projectId: "own-game-c94e2",
+    storageBucket: "own-game-c94e2.appspot.com",
+    messagingSenderId: "958711713610",
+    appId: "1:958711713610:web:4e38fa46bd0a84e9137bb3"
+  };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
